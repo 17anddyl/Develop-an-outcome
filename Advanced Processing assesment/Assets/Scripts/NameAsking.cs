@@ -16,10 +16,12 @@ public class NameAsking : MonoBehaviour
 
     public void onClick()
     {
-        if (username.Length > 2)
+        username = nameImport.text;
+        if (username.Length >= 3 && username.Length <= 20)
         {
             SceneManager.LoadScene(2);
         }
+        
     }
 }
 
