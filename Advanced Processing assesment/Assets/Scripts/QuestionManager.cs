@@ -14,7 +14,7 @@ public class QuestionManager : MonoBehaviour
     {
         Questions.text = questionChange;
 
-        if (newQuestion == 1) questionChange = "Yes";
+        if (newQuestion == 1) questionChange = "What does Ikebana mean?";
 
         if (newQuestion == 2) questionChange = "No";
     }
